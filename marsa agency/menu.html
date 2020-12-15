@@ -1,0 +1,28 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="header">
+		<div class="nav">
+			<ul class="menu-bar">
+				<li>MARSA AGENCY</li>
+				<li>Home</li>
+				<li><a href="inputData.php">Add Customer</a></li>
+				<li><a href="insurance.php">Insurance</a></li>
+				<li class="search-container"><input type="text" placeholder="Search.." name="search" id="search"onkeyup="myFunction()">
+				 <button type="submit"><i class="fa fa-search"></i></button></li>
+			</ul>
+		</div>
+</body>
+<script>
+var $rows = $('#table tr');
+$('#search').keyup(function() {
+    var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+    
+    $rows.show().filter(function() {
+        var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+        return !~text.indexOf(val);
+    }).hide();
+});
+</script>

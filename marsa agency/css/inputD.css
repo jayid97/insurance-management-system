@@ -1,0 +1,250 @@
+a
+{
+    color:black;    
+    text-decoration: none;
+}
+.register
+{
+ 	border-radius: 5px;
+  
+}
+
+.dalam
+{
+	padding-left: 30%;
+}
+
+
+#note
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 20%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#name
+{
+	padding-top: 6px;
+	padding-left: 5px;
+	border: none;
+	width: 40%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#NRIC 
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 20%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#address
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 40%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#remark
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 40%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#remark1
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 40%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#remark2
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 40%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+
+#poskod
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 20%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#state
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 20%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#phone
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 20%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#vehicleNo
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 20%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#uses
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 30%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#year
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 10%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#make
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 30%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#model
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 40%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#engineNo
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 40%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#chassisNo
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 40%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#engineCC
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 15%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#ncd
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 10%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#amount
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 20%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+
+#commision
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    border: none;
+    width: 20%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+input[type=number]
+{
+	padding-top: 6px;
+	padding-left: 5px;
+	border: none;
+    width: 10%;
+    border-bottom: 2px solid red;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=submit]
+{
+	background-color:  #ffa31a;
+    color: white;
+    padding: 10px 14px;
+    margin: 8px 0;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}

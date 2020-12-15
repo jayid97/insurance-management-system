@@ -1,0 +1,42 @@
+
+.register
+{
+ 	border-radius: 5px;
+  
+}
+
+.dalam
+{
+  padding-left: 10%;
+  font-size: 16px;
+  padding-right: 10%;
+}
+
+
+.print
+{
+	background-color:  #ffa31a;
+    color: white;
+    padding: 10px 14px;
+    margin: 8px 0;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+
+@media print {
+  html,body
+  {
+    height: 100%;
+    margin: 0!important;
+    padding: 0!important;
+    overflow: hidden;
+  }
+  #printPageButton {
+    display: none;
+  }
+}
+
+

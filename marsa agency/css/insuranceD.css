@@ -1,0 +1,85 @@
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    font-size: 16px;
+    
+}
+
+table td,table th {
+    border: 1px solid black;
+    padding: 6px;
+}
+
+table td {text-transform: uppercase;}
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffa31a;
+    color: white;
+    cursor: pointer;
+}
+input[type=submit] {
+    background-color:  #ffa31a;
+    color: white;
+    padding: 6px 14px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.delete
+{
+    background-color:  #ffa31a;
+    color: black;
+    padding: 6px 14px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.edit
+{
+    background-color:  #ffa31a;
+    color: black;
+    padding: 6px 14px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.print
+{
+    background-color:  #ffa31a;
+    color: black;
+    padding: 6px 14px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+
+.report
+{
+    background-color:  #ffa31a;
+    color: black;
+    padding: 6px 14px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a
+{
+    color:black;    
+    text-decoration: none;
+}
+
